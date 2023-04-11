@@ -1,0 +1,36 @@
+<svg width="144" height="76" viewBox="0 0 144 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M72 2L107 38" stroke="white" stroke-width="4"/>
+<path d="M107 8L142 44" stroke="white" stroke-width="4"/>
+<path d="M38 37L74 2" stroke="white" stroke-width="4"/>
+<path d="M93 24L109 9" stroke="white" stroke-width="4"/>
+<mask id="path-5-inside-1_213_1017" fill="white">
+<path d="M46 27H99V76H46V27Z"/>
+</mask>
+<path d="M99 76V80H103V76H99ZM46 76H42V80H46V76ZM95 27V76H103V27H95ZM99 72H46V80H99V72ZM50 76V27H42V76H50Z" fill="white" mask="url(#path-5-inside-1_213_1017)"/>
+<mask id="path-7-inside-2_213_1017" fill="white">
+<path d="M95 33H133V76H95V33Z"/>
+</mask>
+<path d="M133 76V80H137V76H133ZM95 76H91V80H95V76ZM129 33V76H137V33H129ZM133 72H95V80H133V72ZM99 76V33H91V76H99Z" fill="white" mask="url(#path-7-inside-2_213_1017)"/>
+<rect x="56.5" y="31.5" width="12" height="12" stroke="white"/>
+<line x1="62.5" y1="31" x2="62.5" y2="44" stroke="white"/>
+<line x1="69" y1="37.5" x2="56" y2="37.5" stroke="white"/>
+<rect x="77.5" y="31.5" width="12" height="12" stroke="white"/>
+<line x1="83.5" y1="31" x2="83.5" y2="44" stroke="white"/>
+<line x1="90" y1="37.5" x2="77" y2="37.5" stroke="white"/>
+<rect x="112.5" y="31.5" width="12" height="12" stroke="white"/>
+<line x1="118.5" y1="31" x2="118.5" y2="44" stroke="white"/>
+<line x1="125" y1="37.5" x2="112" y2="37.5" stroke="white"/>
+<path d="M2 44L38 9" stroke="white" stroke-width="4"/>
+<path d="M36 9L51 25" stroke="white" stroke-width="4"/>
+<mask id="path-20-inside-3_213_1017" fill="white">
+<path d="M12 33H50V76H12V33Z"/>
+</mask>
+<path d="M50 76V80H54V76H50ZM12 76H8V80H12V76ZM46 33V76H54V33H46ZM50 72H12V80H50V72ZM16 76V33H8V76H16Z" fill="white" mask="url(#path-20-inside-3_213_1017)"/>
+<rect x="22.5" y="31.5" width="12" height="12" stroke="white"/>
+<line x1="28.5" y1="31" x2="28.5" y2="44" stroke="white"/>
+<line x1="35" y1="37.5" x2="22" y2="37.5" stroke="white"/>
+<mask id="path-25-inside-4_213_1017" fill="white">
+<path d="M66 51H79V72H66V51Z"/>
+</mask>
+<path d="M66 51V50H65V51H66ZM79 51H80V50H79V51ZM66 52H79V50H66V52ZM78 51V72H80V51H78ZM67 72V51H65V72H67Z" fill="white" mask="url(#path-25-inside-4_213_1017)"/>
+</svg>

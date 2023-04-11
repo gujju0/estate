@@ -1,0 +1,15 @@
+<svg width="74" height="76" viewBox="0 0 74 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M36.4928 2L72 38" stroke="white" stroke-width="4"/>
+<path d="M2 37L38.5217 2" stroke="white" stroke-width="4"/>
+<mask id="path-3-inside-1_213_1008" fill="white">
+<path d="M10.116 27H63.8841V76H10.116V27Z"/>
+</mask>
+<path d="M63.8841 76V80H67.8841V76H63.8841ZM10.116 76H6.11597V80H10.116V76ZM59.8841 27V76H67.8841V27H59.8841ZM63.8841 72H10.116V80H63.8841V72ZM14.116 76V27H6.11597V76H14.116Z" fill="white" mask="url(#path-3-inside-1_213_1008)"/>
+<mask id="path-5-inside-2_213_1008" fill="white">
+<path d="M30.4058 51H43.5942V72H30.4058V51Z"/>
+</mask>
+<path d="M30.4058 51V50H29.4058V51H30.4058ZM43.5942 51H44.5942V50H43.5942V51ZM30.4058 52H43.5942V50H30.4058V52ZM42.5942 51V72H44.5942V51H42.5942ZM31.4058 72V51H29.4058V72H31.4058Z" fill="white" mask="url(#path-5-inside-2_213_1008)"/>
+<rect x="30.9058" y="32.5" width="12.1884" height="12" stroke="white"/>
+<line x1="36.9927" y1="32" x2="36.9927" y2="45" stroke="white"/>
+<line x1="43.5941" y1="38.5" x2="30.4057" y2="38.5" stroke="white"/>
+</svg>

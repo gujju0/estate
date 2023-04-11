@@ -1,0 +1,46 @@
+.newly,.exclusive,.handpicked,.demand,.commercial{
+    display: flex;
+    position: relative;
+    max-width: 1250px;
+    margin: auto;
+    overflow-x: hidden;
+}
+.newly-text, .exclusive-text, .handpicked-text, .demand-text, .commercial-text
+{
+  text-align: left;
+  padding: 30px 0 0 10px;
+}
+.item-newly, .item-exclusive, .item-handpicked, .item-demand, .item-commercial{
+    border-radius: 5px;
+    max-width: 330px;
+    height: 220px;
+    overflow: hidden;
+    transition: 0.5s;
+    margin:10px;
+    position: relative;
+}
+#formList-newly, #formList-exclusive, #formList-handpicked, #formList-demand, #formList-commercial{
+    width: 1200px;
+    max-width: 100%;
+    overflow: auto;
+    margin: 20px auto 40px auto;
+    scroll-behavior: smooth;
+}
+#formList-newly::-webkit-scrollbar, #formList-exclusive::-webkit-scrollbar, #formList-handpicked::-webkit-scrollbar, #formList-demand::-webkit-scrollbar, #formList-commercial::-webkit-scrollbar{
+    display: none;
+}
+@media screen and (max-width:1024px) {
+    .item-newly, .item-exclusive, .item-handpicked, .item-demand, .item-commercial{
+        width: calc(33.3vw - 20px);
+    }
+}
+@media screen and (max-width:768px) {
+    .item-newly, .item-exclusive, .item-handpicked, .item-demand, .item-commercial{
+        width: calc(49vw - 20px);
+    }
+}
+@media screen and (max-width:450px) {
+    .item-newly, .item-exclusive, .item-handpicked, .item-demand, .item-commercial{
+        width: calc(100vw - 20px);
+    }
+}

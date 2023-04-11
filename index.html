@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"> -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="slider/featured.css" />
+  <link rel="stylesheet" href="slider/sliders.css" />
+  <link rel="stylesheet" href="slider/banner.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Playfair+Display&family=Poppins&display=swap"
+    rel="stylesheet" />
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <title>Document</title>
+</head>
+
+<body>
+  <!---------------------------------------------------Navigation Bar------------------------------------------------------------>
+  <header>
+    <div class="navbar">
+      <div class="toggle_btn">
+        <i class="hamburger"><img src="images/Vector.svg" alt="" /></i>
+      </div>
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+      </div>
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Listing</a></li>
+        <li><a href="#">Agency</a></li>
+        <li><a href="builder-new.html">Builders</a></li>
+        <li><a href="about.html">Contact Us</a></li>
+      </ul>
+      <a href="#" class="action_btn">Login</a>
+      <div class="profile">
+        <i class="login"><img src="images/profile.svg" alt="" /></i>
+      </div>
+    </div>
+
+    <div class="dropdown_menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Listing</a></li>
+      <li><a href="#">Agency</a></li>
+      <li><a href="builder-new.html">Builders</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#" class="action_btn">Login</a></li>
+    </div>
+  </header>
+  <!--------------------------------------------------------Hero--------------------------------------------------------------------->
+  <div class="content-hero">
+    <div id="hero">
+      <h1>Searching for the<br />Best Places</h1>
+      <p>
+        Whether you're buying, selling or renting,<br />we can help you move
+        forward.
+      </p>
+    </div>
+    <form action="#" method="post" class="search">
+      <input type="text" placeholder="Enter Your City..." id="searchMe" />
+    </form>
+  </div>
+  <!--------------------------------------------------------Search Filter--------------------------------------------------------------------->
+
+  <div class="select-menu">
+    <div class="select-btn">
+      <span class="sBtn-text">Advance filter</span>
+      <i class="bx bx-chevron-down"></i>
+    </div>
+    <ul class="option-main">
+      <li class="option">
+        <select>
+          <option value="0" selected>BHK</option>
+          <option value="1">1 BHK</option>
+          <option value="2">2 BHK</option>
+          <option value="3">3 BHK</option>
+          <option value="4">4+ BHK</option>
+        </select>
+        <select>
+          <option value="0" selected>Status</option>
+          <option value="1">Under Construction</option>
+          <option value="2">Ready to move</option>
+        </select>
+        <select>
+          <option value="0" selected>Posted By</option>
+          <option value="1">Owner</option>
+          <option value="2">Builder</option>
+          <option value="3">Dealer</option>
+        </select>
+        <button>Search</button>
+      </li>
+    </ul>
+  </div>
+
+
+
+
+  <!--------------------------------------------------------Scroll To Top--------------------------------------------------------------------->
+
+  <button class="scrollToTopBtn">☝️</button>
+  <a href="#searchMe"><button class="scrollToSearch">🔍</button></a>
+
+  <!--------------------------------------------------------Looking For icon--------------------------------------------------------------------->
+
+  <section class="section-property">
+    <div class="all-center properties">
+      <div class="property-text">
+        <div class="text-center text-heading main">
+          Looking to Buy a new property <br />
+          or Sell an existing one?
+        </div>
+        <div class="text-center text-paragraph secondary">
+          We provide all your services on your fingertips
+        </div>
+      </div>
+
+      <div class="property-icon">
+        <div class="apartment-icon prop">
+          <img src="./images/app 1.png" alt="" />
+          <p class="secondary">apartment</p>
+        </div>
+        <div class="house-icon prop">
+          <img src="./images/app 5.svg" alt="" />
+          <p class="secondary">house</p>
+        </div>
+        <div class="office-icon prop">
+          <img src="./images/app 4.svg" alt="" />
+          <p class="secondary">office</p>
+        </div>
+        <div class="villa-icon prop">
+          <img src="./images/app 3.svg" alt="" />
+          <p class="secondary">villa</p>
+        </div>
+        <div class="luxary-icon prop">
+          <img src="./images/app 2.svg" alt="" />
+          <p class="secondary">luxary Homes</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--------------------------------------------------------Featured Items--------------------------------------------------------------------->
+  <div class="featured-text">
+    <div class="main">Featured Properties</div>
+    <div class="secondary">
+      Lorem dolor sit amet, disse suscipit sagittis leo sitea.
+    </div>
+  </div>
+  <div class="featured">
+    <button id="prev-featured" class="btn">
+    </button>
+    <div id="formList-featured">
+      <div id="list">
+        <a href="apartment.html">
+          <div class="item-featured">
+            <img src="images/slider 1/IMAGE 1.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+        </a>
+        <div class="item-featured">
+          <img src="images/slider 1/IMAGE 2.jpg" class="avatar" draggable="false" alt="img-1" />
+          <div class="content">
+            <h3>Heading</h3>
+            <h4>Text</h4>
+          </div>
+        </div>
+        <div class="item-featured">
+          <img src="images/slider 1/IMAGE 3.jpg" class="avatar" draggable="false" alt="img-1" />
+          <div class="content">
+            <h3>Heading</h3>
+            <h4>Text</h4>
+          </div>
+        </div>
+        <div class="item-featured">
+          <img src="images/slider 1/IMAGE 4.png" class="avatar" draggable="false" alt="img-1" />
+          <div class="content">
+            <h3>Heading</h3>
+            <h4>Text</h4>
+          </div>
+        </div>
+        <div class="item-featured">
+          <img src="images/slider 1/IMAGE 5.jpg" class="avatar" draggable="false" alt="img-1" />
+          <div class="content">
+            <h3>Heading</h3>
+            <h4>Text</h4>
+          </div>
+        </div>
+        <div class="item-featured">
+          <img src="images/slider 1/IMAGE 6.jpg" class="avatar" draggable="false" alt="img-1" />
+          <div class="content">
+            <h3>Heading</h3>
+            <h4>Text</h4>
+          </div>
+        </div>
+        <div class="item-featured">
+          <img src="images/slider 1/IMAGE 7.jpg" class="avatar" draggable="false" alt="img-1" />
+          <div class="content">
+            <h3>Heading</h3>
+            <h4>Text</h4>
+          </div>
+        </div>
+        <div class="item-featured">
+          <img src="images/slider 1/IMAGE 8.jpg" class="avatar" draggable="false" alt="img-1" />
+          <div class="content">
+            <h3>Heading</h3>
+            <h4>Text</h4>
+          </div>
+        </div>
+        <div class="item-featured">
+          <img src="images/slider 1/IMAGE 9.jpg" class="avatar" draggable="false" alt="img-1" />
+          <div class="content">
+            <h3>Heading</h3>
+            <h4>Text</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button id="next-featured" class="btn">></button>
+  </div>
+
+  <!---------------------------------------------------Affordable House------------------------------------------------------------>
+
+  <div class="container display">
+    <div class="afford">
+      <!-- for first text -->
+      <div class="firstText">
+        <div class="sub-text">
+          <h1>Check Out Our<br />Featured Items</h1>
+          <br />
+          <p>
+            Whether you're buying,selling or renting,<br />we can help you
+            move forward.
+          </p>
+        </div>
+      </div>
+
+      <!-- for second card -->
+      <div class="secondCard">
+        <div class="same">
+          <h2>Affordable Urban House</h2>
+        </div>
+        <div class="same">
+          <p>500 25th St,Brooklyn, New York</p>
+        </div>
+        <div class="same">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            ducimus at ad impedit delectus quo odit sed velit perspiciatis
+            tempora est cum, reprehenderit eveniet nobis pariatur cupiditate
+            deserunt saepe recusandae!
+          </p>
+        </div>
+        <button type="button">Explore Now</button>
+      </div>
+    </div>
+  </div>
+
+  <!---------------------------------------------------Newly Launched Projects------------------------------------------------------------>
+
+  <div class="all">
+    <div class="newly-text">
+      <div class="main">Newly Launched Projects</div>
+      <div class="secondary">
+        Lorem dolor sit amet, disse suscipit sagittis leo sitea.
+      </div>
+    </div>
+    <div class="newly">
+      <button id="prev-newly" class="btn">
+      </button>
+      <div id="formList-newly">
+        <div id="list">
+          <div class="item-newly">
+            <img src="images/slider 2/IMAGE 1.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-newly">
+            <img src="images/slider 2/IMAGE 2.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-newly">
+            <img src="images/slider 2/IMAGE 3.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-newly">
+            <img src="images/slider 2/IMAGE 4.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-newly">
+            <img src="images/slider 2/IMAGE 5.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-newly">
+            <img src="images/slider 2/IMAGE 6.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-newly">
+            <img src="images/slider 2/IMAGE 7.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-newly">
+            <img src="images/slider 2/IMAGE 8.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-newly">
+            <img src="images/slider 2/IMAGE 9.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="next-newly" class="btn">></button>
+    </div>
+  </div>
+
+  <!---------------------------------------------------BHK Selection------------------------------------------------------------>
+
+  <div class="BHK">
+    <div class="BHK-main">
+      <div class="BHK-text">
+        <h1>
+          Have any choice of<br />
+          BHK in mind?
+        </h1>
+        <p>
+          Whether you are buying,selling or renting,<br />
+          we can help you move forward.
+        </p>
+      </div>
+    </div>
+    <div class="BHK-box">
+      <a href="1-bhk.html">
+        <div class="OnlyBox box-1">
+          <img src="images/1-bhk.svg" alt="" />
+          <h3>1 BHK</h3>
+        </div>
+      </a>
+      <a href="2-bhk.html">
+        <div class="OnlyBox box-2">
+          <img src="images/2-bhk.svg" alt="" />
+          <h3>2 BHK</h3>
+        </div>
+      </a>
+      <a href="3-bhk.html">
+        <div class="OnlyBox box-3">
+          <img src="images/3-bhk.svg" alt="" />
+          <h3>3 BHK</h3>
+        </div>
+      </a>
+      <a href="4-bhk.html">
+        <div class="OnlyBox box-4">
+          <img src="images/4-bhk.svg" alt="" />
+          <h3>4+ BHK</h3>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!---------------------------------------------------Our Exclusive Projects------------------------------------------------------------>
+
+  <div class="all">
+    <div class="exclusive-text">
+      <div class="main">Our Exclusive</div>
+      <div class="secondary">
+        Lorem dolor sit amet, disse suscipit sagittis leo sitea.
+      </div>
+    </div>
+    <div class="exclusive">
+      <button id="prev-exclusive" class="btn">
+      </button>
+      <div id="formList-exclusive">
+        <div id="list">
+          <div class="item-exclusive">
+            <img src="images/slider 3/IMAGE 1.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-exclusive">
+            <img src="images/slider 3/IMAGE 2.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-exclusive">
+            <img src="images/slider 3/IMAGE 3.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-exclusive">
+            <img src="images/slider 3/IMAGE 4.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-exclusive">
+            <img src="images/slider 3/IMAGE 5.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-exclusive">
+            <img src="images/slider 3/IMAGE 6.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-exclusive">
+            <img src="images/slider 3/IMAGE 7.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-exclusive">
+            <img src="images/slider 3/IMAGE 8.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-exclusive">
+            <img src="images/slider 3/IMAGE 9.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="next-exclusive" class="btn">></button>
+    </div>
+  </div>
+
+  <!---------------------------------------------------Handpicked Projects------------------------------------------------------------>
+
+  <div class="all">
+    <div class="handpicked-text">
+      <div class="main">Handpicked From Us</div>
+      <div class="secondary">
+        Lorem dolor sit amet, disse suscipit sagittis leo sitea.
+      </div>
+    </div>
+    <div class="handpicked">
+      <button id="prev-handpicked" class="btn">
+      </button>
+      <div id="formList-handpicked">
+        <div id="list">
+          <div class="item-handpicked">
+            <img src="images/slider 4/IMAGE 1.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-handpicked">
+            <img src="images/slider 4/IMAGE 2.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-handpicked">
+            <img src="images/slider 4/IMAGE 3.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-handpicked">
+            <img src="images/slider 4/IMAGE 4.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-handpicked">
+            <img src="images/slider 4/IMAGE 5.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-handpicked">
+            <img src="images/slider 4/IMAGE 6.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-handpicked">
+            <img src="images/slider 4/IMAGE 7.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-handpicked">
+            <img src="images/slider 4/IMAGE 8.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-handpicked">
+            <img src="images/slider 4/IMAGE 9.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="next-handpicked" class="btn">></button>
+    </div>
+  </div>
+
+  <!---------------------------------------------------Explore Cities------------------------------------------------------------>
+
+  <div class="Explore">
+    <div class="all">
+      <div class="city-heading">
+        <div class="main">Explore Popular Cities</div>
+      </div>
+      <div class="city">
+        <div class="city-card">
+          <div class="city-img">
+            <img src="images/city/IMAGE 1.jpg" alt="" />
+          </div>
+          <div class="city-text">
+            <h3>Mehsana</h3>
+            <p>100+ Properties</p>
+          </div>
+        </div>
+        <div class="city-card">
+          <div class="city-img">
+            <img src="images/city/IMAGE 2.jpg" alt="" />
+          </div>
+          <div class="city-text">
+            <h3>Surat</h3>
+            <p>100+ Properties</p>
+          </div>
+        </div>
+        <div class="city-card">
+          <div class="city-img">
+            <img src="images/city/IMAGE 3.jpg" alt="" />
+          </div>
+          <div class="city-text">
+            <h3>Ahmedabad</h3>
+            <p>100+ Properties</p>
+          </div>
+        </div>
+        <div class="city-card">
+          <div class="city-img">
+            <img src="images/city/IMAGE 4.jpg" alt="" />
+          </div>
+          <div class="city-text">
+            <h3>Gandhinagar</h3>
+            <p>100+ Properties</p>
+          </div>
+        </div>
+        <div class="city-card">
+          <div class="city-img">
+            <img src="images/city/IMAGE 5.jpg" alt="" />
+          </div>
+          <div class="city-text">
+            <h3>Vadodara</h3>
+            <p>100+ Properties</p>
+          </div>
+        </div>
+        <div class="city-card">
+          <div class="city-img">
+            <img src="images/city/IMAGE 6.jpg" alt="" />
+          </div>
+          <div class="city-text">
+            <h3>Jamnagar</h3>
+            <p>100+ Properties</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!---------------------------------------------------High Demand Projects------------------------------------------------------------>
+
+  <div class="all">
+    <div class="demand-text">
+      <div class="main">Projects In High Demand</div>
+      <div class="secondary">
+        Lorem dolor sit amet, disse suscipit sagittis leo sitea.
+      </div>
+    </div>
+    <div class="demand">
+      <button id="prev-demand" class="btn">
+      </button>
+      <div id="formList-demand">
+        <div id="list">
+          <div class="item-demand">
+            <img src="images/slider 5/IMAGE 1.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-demand">
+            <img src="images/slider 5/IMAGE 2.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-demand">
+            <img src="images/slider 5/IMAGE 3.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-demand">
+            <img src="images/slider 5/IMAGE 4.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-demand">
+            <img src="images/slider 5/IMAGE 5.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-demand">
+            <img src="images/slider 5/IMAGE 6.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-demand">
+            <img src="images/slider 5/IMAGE 7.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-demand">
+            <img src="images/slider 5/IMAGE 8.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-demand">
+            <img src="images/slider 5/IMAGE 9.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="next-demand" class="btn">></button>
+    </div>
+  </div>
+
+  <!---------------------------------------------------Popular Builders------------------------------------------------------------>
+
+  <div class="popular">
+    <div class="popular-text">
+      <h2>Popular Builders</h2>
+      <p>Lorem dolor sit amet, disse suscipit sagittis leo sitea.</p>
+    </div>
+    <div class="popular-cards">
+      <div class="one card">
+        <a href="#"><img src="images/builder/2.png" alt="" srcset="" /></a>
+      </div>
+      <div class="two card">
+        <a href="#"><img src="images/builder/3.png" alt="" srcset="" /></a>
+      </div>
+      <div class="three card">
+        <a href="#"><img src="images/builder/4.png" alt="" srcset="" /></a>
+      </div>
+      <div class="four card">
+        <a href="#"><img src="images/builder/1200px-Shapoorji_Pallonji_Group_logo.svg.png" alt="" srcset="" /></a>
+      </div>
+    </div>
+  </div>
+
+  <!---------------------------------------------------Commercial Projects------------------------------------------------------------>
+
+  <div class="all">
+    <div class="commercial-text">
+      <div class="main">Commercial Investment Ideas</div>
+      <div class="secondary">
+        Lorem dolor sit amet, disse suscipit sagittis leo sitea.
+      </div>
+    </div>
+    <div class="commercial">
+      <button id="prev-commercial" class="btn">
+      </button>
+      <div id="formList-commercial">
+        <div id="list">
+          <div class="item-commercial">
+            <img src="images/slider 6/IMAGE 1.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-commercial">
+            <img src="images/slider 6/IMAGE 2.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-commercial">
+            <img src="images/slider 6/IMAGE 3.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-commercial">
+            <img src="images/slider 6/IMAGE 4.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-commercial">
+            <img src="images/slider 6/IMAGE 5.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-commercial">
+            <img src="images/slider 6/IMAGE 6.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-commercial">
+            <img src="images/slider 6/IMAGE 7.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-commercial">
+            <img src="images/slider 6/IMAGE 8.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+          <div class="item-commercial">
+            <img src="images/slider 6/IMAGE 9.jpg" class="avatar" draggable="false" alt="img-1" />
+            <div class="content">
+              <h3>Heading</h3>
+              <h4>Text</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="next-commercial" class="btn">></button>
+    </div>
+  </div>
+
+  <!--------------------------------------------------------Vr Exclusive--------------------------------------------------------------------->
+  <div class="banner-all">
+    <div class="banner-text">
+      <div class="main-banner">VR Exclusive</div>
+      <div class="secondary-banner">
+        Lorem dolor sit amet, disse suscipit sagittis leo sitea.
+      </div>
+    </div>
+    <div class="banner">
+      <div id="formList-banner">
+        <div id="list-banner">
+          <div class="item-banner">
+            <img src="images/vr-1.png" class="avatar-banner" draggable="false" alt="img-1" />
+          </div>
+          <div class="item-banner">
+            <img src="images/vr-2.png" class="avatar-banner" draggable="false" alt="img-1" />
+          </div>
+          <div class="item-banner">
+            <img src="images/vr-3.png" class="avatar-banner" draggable="false" alt="img-1" />
+          </div>
+          <div class="item-banner">
+            <img src="images/vr-4.png" class="avatar-banner" draggable="false" alt="img-1" />
+          </div>
+          <div class="item-banner">
+            <img src="images/vr-5.png" class="avatar-banner" draggable="false" alt="img-1" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!---------------------------------------------------Footer------------------------------------------------------------>
+  <div class="footer">
+    <div class="sub-footer">
+      <div class="first-col">
+        <img src="images/logo.png" alt="" />
+        <p>58 Hawardd Street #2 San Francisco</p>
+        <p>Contact@grandhome.com</p>
+        <p>(+66)1221 09876</p>
+      </div>
+      <div class="second-col">
+        <h3>Quick links</h3>
+        <a href="term.html" id="">Terms of Use</a>
+        <a href="term.html" id="">Privacy Policy</a>
+        <a href="about.html" id="">Contact Support</a>
+        <a href="#" id="">Careers</a>
+        <a href="#" id="">FAQs</a>
+      </div>
+      <div class="third-col">
+        <h3>Popular Searches</h3>
+        <a href="#" id="">Apartment for Rents</a>
+        <a href="#" id="">Apartment Low to high</a>
+        <a href="#" id="">Offices for Buy</a>
+        <a href="#" id="">Offices for Rent</a>
+      </div>
+      <div class="forth-col">
+        <h3>Newsletter</h3>
+        <p>subscribe to our newsletter</p>
+        <input type="Email" placeholder="Enter your mail.." />
+        <button type="button">Send Us</button>
+      </div>
+    </div>
+
+    <div class="copy-write">
+      <div class="terms">
+        <a href="term.html">Terms of Use</a>
+        <a href="term.html">Privacy Policy</a>
+      </div>
+      <div class="rights">
+        <p>@ 2023 Vedansh Mevada.All Rights Reserved</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

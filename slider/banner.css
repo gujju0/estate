@@ -1,0 +1,124 @@
+.banner-all
+{
+    background-color: #0f3235;
+    color: #fff;
+}
+.banner{
+    display: flex;
+    position: relative;
+    max-width: fit-content;
+    margin: auto;
+    overflow-x: hidden;
+}
+.banner-text
+{
+  text-align: center;
+  padding: 30px 0 0 0;
+}
+.main-banner {
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+  }
+  .secondary-banner {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+    margin-top: 8px;
+  }
+  @media screen and (max-width: 1050px) {
+    .main-banner-banner {
+      font-size: 30px;
+    }
+    .secondary-banner {
+      font-size: 13px;
+    }
+  }
+  @media screen and (max-width: 678px) {
+    .main-banner {
+      font-size: 25px;
+    }
+    .secondary-banner {
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 476px) {
+    .main-banner {
+      font-size: 22px;
+    }
+    .secondary-banner {
+      font-size: 11px;
+    }
+  }
+#formList-banner{
+    width: 1200px;
+    max-width: 100%;
+    overflow: auto;
+    margin: 20px auto 40px auto;
+    scroll-behavior: smooth;
+}
+#formList-banner::-webkit-scrollbar{
+    display: none;
+}
+#list-banner{
+    display: flex;
+    width: max-content;
+    animation: myscroll 40s linear infinite;
+}
+
+@keyframes myscroll {
+    /* 0%
+    {
+        transform: translateX(0)
+    } */
+    100% { 
+        transform: translateX(-78.33333%);  
+      }
+}
+
+
+
+.item-banner{
+    border-radius: 15px;
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+    transition: 0.5s;
+    margin:10px;
+    position: relative;
+}
+@media screen and (max-width:1024px) {
+    .item-banner{
+        width: calc(90vw - 20px);
+        height: 350px;
+    }
+}
+@media screen and (max-width:768px) {
+    .item-banner{
+        width: calc(90vw - 20px);
+        height: 300px;
+    }
+}
+
+/********************************************For One********************************************************/
+@media screen and (max-width:450px) {
+    .item-banner{
+        width: calc(90vw - 20px);
+        height: 170px;
+    }
+}
+
+
+
+.all {
+    max-width: 1200px;
+    margin: auto;
+  }
+  .avatar-banner {
+    object-fit: fill;
+  }
+  img.avatar-banner{
+    width: 100%;
+    height: 100%;
+  }
